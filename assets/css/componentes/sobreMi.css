@@ -1,38 +1,9 @@
-/*Sección Title*/
+/*Sección About - sobreMi*/
 
-section.title{
-    margin-top: 7rem;
+section.about{
+    margin-top: 3rem;
+    margin-left: 18rem;
 }
 
-.title__div{
-    display: flex;
-}
-
-.title__container{
-    margin-left: 3rem;
-}
-
-.title__bio{
-    font-size: 52px;
-    font-weight: 700;
-}
-
-.title__subsection{
-    font-size: 22px;
-    font-weight: 300;
-}
-
-.title__network{
-    display: flex;
-    padding-left: 0;
-}
-
-.title__network__item{
-    margin-right: 2rem;
-}
-
-.text_link{
-    font-weight: 500;
-    font-size: 16px;
-    color: #464646;
-}
+/*.about__container{
+}*/
