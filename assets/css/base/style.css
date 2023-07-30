@@ -16,6 +16,7 @@ body {
     margin: 2rem 5rem;
     padding: 0;
     line-height: 1;
+    color: var(--font-size-color);
 }
 ol, ul,li {
     list-style: none;
@@ -36,12 +37,6 @@ con una interfaz de usuario compleja, y permite la reutilización del código ex
 
 Enlace de la documentación oficial!
 https://en.bem.info/methodology/quick-start/*/
-
-/*Sección Title*/
-
-section.title{
-
-}
 
 /*Sección About*/
 
