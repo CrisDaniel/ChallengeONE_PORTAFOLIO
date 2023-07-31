@@ -8,6 +8,10 @@ section.hobbies{
     margin-top: 3rem;
 }
 
+.hobbies__title{
+    font-size: 24px;
+}
+
 .hobbies__line{
     display: flex;
     justify-content: space-between;
