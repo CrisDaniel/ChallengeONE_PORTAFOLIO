@@ -8,6 +8,10 @@ section.skills{
     margin-top: 3rem;
 }
 
+.skills__title{
+    font-size: 24px;
+}
+
 .skills__line{
     display: flex;
     justify-content: space-between;
