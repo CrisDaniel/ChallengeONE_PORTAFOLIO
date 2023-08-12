@@ -122,3 +122,15 @@ section.formcontato{
     color: white;
     width: 116px;
 }
+
+.formcontato__botao:hover{
+    cursor: pointer;
+}
+
+.formcontato__botao:disabled {
+    /* Estilos específicos cuando el botón está deshabilitado */
+    background-color: #2a7be47b;
+    color: #666;
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
