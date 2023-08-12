@@ -27,6 +27,7 @@
     --cor-de-link: #000;
   
     --shadow: 0 5px 10px #55a6ff38;
+    --warning-color: #df2525;
   }
   
   @media (min-width: 800px) {

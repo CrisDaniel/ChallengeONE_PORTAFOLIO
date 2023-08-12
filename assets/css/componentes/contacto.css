@@ -63,6 +63,16 @@ section.formcontato{
     color: #A2A2A2;
     font-size: 16px;
 }
+.input-message-error {
+  display: none;
+}
+
+.input-container--invalid .input-message-error {
+  color: var(--warning-color);
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
 .formcontato__input:focus + .input-label,
 .formcontato__input:not(:placeholder-shown) + .input-label {
   font-size: 0.875rem;
