@@ -17,7 +17,7 @@
 #### 🔹validacion.js: Documento vacío dónde vas a desarrollar tu lógica de programación para validar formularios usando Javascript.
 
 
-🔹 [Link del formulario](https://lp.alura.com.br/alura-latam-entrega-challenge-one-esp-front-end)
+🔹 [Link del DEMO](https://crisdaniel.github.io/ChallengeONE_PORTAFOLIO/)
 
 <a href="https://www.linkedin.com/in/daniel-revoredo-meza-05616b250/" target="_blank">
 <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
