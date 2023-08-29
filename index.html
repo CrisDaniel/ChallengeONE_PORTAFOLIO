@@ -271,55 +271,56 @@
                 <img class="experience__img" src="assets\img\forca2_print.png">
             </div>
         </div>  
-
-        <!-- Sección de Contacto -->
-        <section class="formcontato" id="contacto">
-            <div  class="formcontato__contacto">
-                <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets\img\contact_image.png">
-                </div>
-                <div class="formcontato__text">
-                    <h2 class="formcontato__title">Contacto</h2>
-                    <p class="formcontato__subtext">¿Quieres contactarme?</p>
-                    <p class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </p>
-                    <form class="formcontato__form" name="form" action="https://formsubmit.co/a9c06f95e8e2b67d1e26e6516ae8b4d3" method="POST">
-                        <div class="input-container">
-                            <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required data-tipo="nombre" pattern="^[A-Za-z\s]{1,50}$">
-                            <label class="input-label" for="nombre">Nombre</label>
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
-                        <div class="input-container">
-                            <input class="formcontato__input" type="email" name="email" id="email" placeholder="E-mail" required data-tipo="email">
-                            <label class="input-label" for="email">Email</label>
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
-                        <div class="input-container">
-                            <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder="Assunto" required data-tipo="asunto" pattern="^.{0,50}$">
-                            <label class="input-label" for="asunto">Asunto</label>
-                            <span class="input-message-error">Este campo no es valido</span>
-
-                        </div>
-                        <div class="input-container">
-                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensage" name="mensaje" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
-                            <label class="input-label" for="mensaje">Mensaje</label>
-                            <span class="input-message-error">Este campo no es valido</span>
-                        </div>
-                        <button type="submit" class="formcontato__botao" id="btn_enviar" disabled>Enviar mensaje</button>
-                        <input type="hidden" name="_next" value="https://crisdaniel.github.io/ChallengeONE_PORTAFOLIO/">
-                        <input type="hidden" name="_captcha" value="false">
-
-                    </form>
-                </div>
+    </section>
+    
+    <!-- Sección de Contacto -->
+    <section class="formcontato" id="contacto">
+        <div  class="formcontato__contacto">
+            <div class="formcontato--esquerda">
+                <img class="formcontato__img" src="assets\img\contact_image.png">
             </div>
-        </section>
+            <div class="formcontato__text">
+                <h2 class="formcontato__title">Contacto</h2>
+                <p class="formcontato__subtext">¿Quieres contactarme?</p>
+                <p class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </p>
+                <form class="formcontato__form" name="form" action="https://formsubmit.co/a9c06f95e8e2b67d1e26e6516ae8b4d3" method="POST">
+                    <div class="input-container">
+                        <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required data-tipo="nombre" pattern="^[A-Za-z\s]{1,50}$">
+                        <label class="input-label" for="nombre">Nombre</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <input class="formcontato__input" type="email" name="email" id="email" placeholder="E-mail" required data-tipo="email">
+                        <label class="input-label" for="email">Email</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder="Assunto" required data-tipo="asunto" pattern="^.{0,50}$">
+                        <label class="input-label" for="asunto">Asunto</label>
+                        <span class="input-message-error">Este campo no es valido</span>
 
-        <!-- Sección de Footer -->
-        <section class="footer">
-            <div class="footer__rodape">
-                <p>Desarrollado por Fulana de Tal</p>
-                <p>2022</p>
+                    </div>
+                    <div class="input-container">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensage" name="mensaje" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
+                        <label class="input-label" for="mensaje">Mensaje</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <button type="submit" class="formcontato__botao" id="btn_enviar" disabled>Enviar mensaje</button>
+                    <input type="hidden" name="_next" value="https://crisdaniel.github.io/ChallengeONE_PORTAFOLIO/">
+                    <input type="hidden" name="_captcha" value="false">
+
+                </form>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footer__rodape">
+            <p class="footer__text">Desarrollado por Revoredo</p>
+            <p class="footer__text">2022</p>
+        </div>
+        <!-- <img class="wave_footer" src="assets/img/wave.png" alt="Waves"> -->
     </section>
  <!-- Script del documento JavaScript -->
  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
