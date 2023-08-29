@@ -2,6 +2,7 @@
 
 section.formcontato{
     margin-top: 5rem;
+    overflow: visible;
 }
 
 .formcontato__contacto{

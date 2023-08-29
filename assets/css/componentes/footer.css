@@ -1,7 +1,17 @@
 /*footeer*/
 
-section.footer{
-   margin-top: 6rem;
+.footer{
+   padding-top: 6rem;
+   position: absolute;
+   width: 100%;
+   height: 100px;
+   left: 0;
+
+   background-image: url('../../img/wave.png');
+   background-repeat: no-repeat;
+   background-size: 100% 300px;
+   background-attachment: fixed;
+   background-position: bottom center;
 }
 
 .footer__rodape{
@@ -9,6 +19,9 @@ section.footer{
     flex-direction: column;
     align-items: center;
 }
-p{
+
+.footer_text{
     margin: 0.1px;
+    position: absolute;
 }
+

@@ -3,11 +3,10 @@
 /* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
 en las secciones señaladas */
 
-/*:root{
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma 
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
-}*/
+/*Para que al desplazar con links en la misma pagina sea suave y no inmediatamente*/
+:root{
+    scroll-behavior: smooth;
+}
 
 body {
     box-sizing: border-box;
