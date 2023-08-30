@@ -31,3 +31,20 @@ section.hobbies{
 .hobbies__name{
     padding: 1rem;
 }
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    /* Menú */
+    .hobbies__title{
+        font-size: 22px;
+    }
+
+    .hobbies__line{
+        flex-wrap: wrap;
+    }
+
+    .hobbies__box{
+        width: 30%;
+    }
+}

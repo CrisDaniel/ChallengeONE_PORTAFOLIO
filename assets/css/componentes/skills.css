@@ -31,3 +31,20 @@ section.skills{
 .skills__name{
     padding: 1rem;
 }
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    /* Menú */
+    .skills__title{
+        font-size: 22px;
+    }
+
+    .skills__line{
+        flex-wrap: wrap;
+    }
+
+    .skills__box{
+        width: 25%;
+    }
+}

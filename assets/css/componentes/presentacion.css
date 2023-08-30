@@ -19,7 +19,7 @@ section.title{
 
 .title__subsection{
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .title__network{
@@ -35,4 +35,27 @@ section.title{
     font-weight: 500;
     font-size: 16px;
     color: #464646;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    /* Menú */
+    .title__profile{
+        width: 146px;
+        border-radius: 50%;
+    }
+
+    .title__bio{
+        font-size: 22px;
+    }
+
+    .title__subsection{
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .text_link{
+        font-size: 16px;
+    }
 }

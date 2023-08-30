@@ -27,3 +27,28 @@ section.academic{
     align-items: center;
     padding-left: 0;
 }
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    /* Menú */
+    .academic__title{
+        font-size: 22px;
+    }
+
+    .academic__courses__box{
+        width: 30%;
+    }
+
+    .academic__courses__item__img img{
+        height: 80px;
+    }
+
+    .academic__courses__item__title h4, .academic__courses__item__subtitle p{
+        margin: 0.3rem;
+    }
+
+    .academic__courses__item__subtitle p{
+        font-size: 14px;
+    }
+}

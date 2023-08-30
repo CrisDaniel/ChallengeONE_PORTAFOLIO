@@ -8,3 +8,26 @@ section.about{
 .about__title{
     font-size: 24px;
 }
+
+.about__paragraph{
+    line-height: normal;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    /* Menú */
+    section.about{
+        margin-left: 0;
+    }
+
+    .about__title{
+        font-size: 22px;
+    }
+
+    .about__paragraph{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

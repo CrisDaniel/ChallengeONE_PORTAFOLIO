@@ -4,24 +4,38 @@
    padding-top: 6rem;
    position: absolute;
    width: 100%;
-   height: 100px;
    left: 0;
-
-   background-image: url('../../img/wave.png');
-   background-repeat: no-repeat;
-   background-size: 100% 300px;
-   background-attachment: fixed;
-   background-position: bottom center;
+   overflow: visible;
 }
 
 .footer__rodape{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -150px;
+    padding-top: 300px;
+
+    background-image: url('../../img/wave.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.footer_text{
-    margin: 0.1px;
-    position: absolute;
+.footer__text{
+    position: relative;
+    bottom: 100px;
+    color: black;
 }
 
+/*Tablet*/
+@media (max-width: 768px) {
+
+    /* Menú */
+    .footer__rodape{
+        margin-top: -100px;
+        padding-top: 100px;
+    }
+
+    .footer__text{
+        bottom: 20px;
+    }
+}

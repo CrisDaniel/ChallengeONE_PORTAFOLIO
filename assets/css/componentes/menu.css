@@ -41,3 +41,12 @@ section.menu{
 .contacto-text{
     font-weight: bold;
 }
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    /* Menú */
+    .list_{
+        display: none;
+    }
+}
