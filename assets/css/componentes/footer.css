@@ -29,7 +29,7 @@
 /*Tablet*/
 @media (max-width: 768px) {
 
-    /* Menú */
+    /* Footer */
     .footer__rodape{
         margin-top: -100px;
         padding-top: 100px;
@@ -38,4 +38,12 @@
     .footer__text{
         bottom: 20px;
     }
+}
+
+@media (max-width: 426px) {
+
+    .footer__rodape{
+        padding-top: 49px;
+    }
+    
 }

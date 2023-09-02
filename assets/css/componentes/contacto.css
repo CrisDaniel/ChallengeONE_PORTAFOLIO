@@ -150,3 +150,15 @@ section.formcontato{
         font-size: 22px;
     }
 }
+
+@media (max-width: 426px) {
+
+    .formcontato__text{
+        margin: 0;
+    }
+
+    .formcontato__input, .formcontato__textarea{
+        box-sizing: border-box;
+    }
+    
+}

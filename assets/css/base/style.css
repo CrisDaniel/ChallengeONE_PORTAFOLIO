@@ -43,7 +43,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     body{
         margin: 1rem 32px;
     }
@@ -51,24 +51,26 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (max-width: 426px) {
 
-/*Menu*/
+    body{
+        margin: 1rem 1rem;
+    }
 
-/*Titulo*/
+    /*Titulo*/
 
-/*Sección sobre mi*/
+    /*Sección sobre mi*/
 
-/*Skills*/
+    /*Skills*/
 
-/*Hobbies*/
- 
-/*Formación Académica*/
+    /*Hobbies*/
+    
+    /*Formación Académica*/
 
-/*Experiencia Profesional*/
+    /*Experiencia Profesional*/
 
- /*Contacto*/
+    /*Contacto*/
 
-/*Footer*/
+    /*Footer*/
 
 }

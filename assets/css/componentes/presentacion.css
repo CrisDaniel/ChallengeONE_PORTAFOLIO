@@ -40,7 +40,7 @@ section.title{
 /*Tablet*/
 @media (max-width: 768px) {
 
-    /* Menú */
+    /* Presentacion */
     .title__profile{
         width: 146px;
         border-radius: 50%;
@@ -57,5 +57,48 @@ section.title{
 
     .text_link{
         font-size: 16px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    /*Presentacion*/
+    .title__div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title__profile{
+        width: 98px;
+        border-radius: 50%;
+    }
+
+    .title__subsection{
+        font-size: 14px;
+    }
+
+    .title__container{
+        margin-left: 0;
+    }
+
+    .title__network{
+        justify-content: space-between;
+    }
+
+    .title__network__item{
+        margin: 0;
+    }
+
+    .text_link{
+        display: flex;
+        font-size: 14px;
+        align-items: center;
+        font-weight: 600;
+    }
+
+    .text_link img{
+        width: 10px;
+        height: 10px;
+        padding: 2px;
     }
 }

@@ -50,3 +50,29 @@ section.menu{
         display: none;
     }
 }
+
+/*Mobile*/
+@media (max-width: 426px) {
+
+    /*Menu*/
+    section.menu{
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 1rem;
+        max-width: none;
+    }
+
+    .menu__title{
+        font-size: 16px;
+    }
+
+    .contacto-text a{
+        font-size: 14px;
+        color: #464646;
+    }
+
+    .menu__list{
+        padding: 0;
+    }
+}

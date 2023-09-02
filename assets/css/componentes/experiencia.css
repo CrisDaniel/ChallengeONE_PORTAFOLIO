@@ -61,7 +61,7 @@ section.experience{
 /*Tablet*/
 @media (max-width: 768px) {
 
-    /* Menú */
+    /* Experiencia */
     .experience__section__title{
         font-size: 22px;
     }
@@ -69,6 +69,10 @@ section.experience{
     .experiencie__box{
         flex-direction: column;
         align-items: center;
+    }
+
+    .experiencie__box img{
+        width: 100%;
     }
 
     .experiencie__box .primero{

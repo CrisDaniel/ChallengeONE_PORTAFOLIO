@@ -16,7 +16,7 @@ section.about{
 /*Tablet*/
 @media (max-width: 768px) {
 
-    /* Menú */
+    /* Sobre mi */
     section.about{
         margin-left: 0;
     }

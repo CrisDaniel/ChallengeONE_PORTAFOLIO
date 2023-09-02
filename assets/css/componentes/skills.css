@@ -35,7 +35,7 @@ section.skills{
 /*Tablet*/
 @media (max-width: 768px) {
 
-    /* Menú */
+    /* Skills */
     .skills__title{
         font-size: 22px;
     }
@@ -46,5 +46,17 @@ section.skills{
 
     .skills__box{
         width: 25%;
+    }
+}
+
+@media (max-width: 426px) {
+
+    /*Skills*/
+    .skills__line{
+        justify-content: space-around;
+    }
+
+    .skills__box{
+        width: 35%;
     }
 }

@@ -31,7 +31,7 @@ section.academic{
 /*Tablet*/
 @media (max-width: 768px) {
 
-    /* Menú */
+    /* Formacion */
     .academic__title{
         font-size: 22px;
     }
@@ -50,5 +50,17 @@ section.academic{
 
     .academic__courses__item__subtitle p{
         font-size: 14px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    /*Formacion*/
+    .academic__courses{
+        flex-direction: column;
+    }
+
+    .academic__courses__box{
+        width: 100%;
     }
 }
