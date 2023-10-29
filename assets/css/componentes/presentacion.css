@@ -13,6 +13,7 @@ section.title{
 }
 
 .title__bio{
+    font-family: var(--font-family-title);
     font-size: 52px;
     font-weight: 700;
 }
