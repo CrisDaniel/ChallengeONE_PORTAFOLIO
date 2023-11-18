@@ -6,6 +6,7 @@ section.experience{
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+    width: 100%;
 }
 
 .experience__section__title{
@@ -14,12 +15,14 @@ section.experience{
 
 .experience__container{
     margin-top: 2rem;
-    max-width: 100%;
+    width: 100%;
 }
 
 .experiencie__box{
     display: flex;
+    justify-content: space-evenly;
     margin-bottom: 4rem;
+    width: 100%;
 }
 
 .experience__info{
@@ -56,6 +59,10 @@ section.experience{
 
 .experience__botao--demo:hover{
     cursor: pointer;
+}
+
+img.experience__img {
+    width: 800px;
 }
 
 /*Tablet*/
